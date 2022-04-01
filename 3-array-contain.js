@@ -1,10 +1,10 @@
 function arrayContain(array, number) {
-  for (let i = 0; i < array.length; i++) {//6
-    if (array[i] === number) {//3
-      return true;//1
+  for (let i = 0; i < array.length; i++) { //6
+    if (array[i] === number) { //3
+      return true; //1
     }
   }
-  return false;//1
+  return false; //1
 }
 
 module.exports = { arrayContain };

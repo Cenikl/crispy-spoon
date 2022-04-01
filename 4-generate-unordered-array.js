@@ -1,15 +1,15 @@
 const { arrayContain } = require('./3-array-contain');
 
 function generateUnorderedArray(size) {
-  let array = [];//1
-  for (let i = 0; i < size; i++) {//6
-    let number = Math.floor(Math.random() * 100);//4
-    while (arrayContain(array, number)) {//3
-      number = Math.floor(Math.random() * 100);//4
+  let array = []; //1
+  for (let i = 0; i < size; i++) { //6
+    let number = Math.floor(Math.random() * 100); //4
+    while (arrayContain(array, number)) { //3
+      number = Math.floor(Math.random() * 100); //4
     }
-    array.push(number);//2
+    array.push(number); //2
   }
-  return array;//1
+  return array; //1
 }
 
 module.exports = { generateUnorderedArray };

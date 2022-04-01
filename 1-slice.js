@@ -1,9 +1,9 @@
 function slice(array, start, end) {
-  let slicedArray = [];//1
-  for (let i = start; i < end; i++) {//7
-    slicedArray.push(array[i]);//2
+  let slicedArray = []; //1
+  for (let i = start; i < end; i++) { //7
+    slicedArray.push(array[i]); //2
   }
-  return slicedArray;//2
+  return slicedArray; //2
 }
 
 module.exports = { slice };
